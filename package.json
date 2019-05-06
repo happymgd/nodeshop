@@ -1,0 +1,31 @@
+{
+  "name": "Coursework",
+  "version": "1.0.0",
+  "description": "Webscript Coursework",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "browserify": "^16.2.3",
+    "express": "^4.16.4",
+    "file-system": "^2.2.2",
+    "googleapis": "^37.2.0",
+    "http": "0.0.0",
+    "multer": "^1.2.0",
+    "mysql": "^2.12.0",
+    "newsapi": "^2.4.0",
+    "node-localstorage": "^1.3.0",
+    "nodemon": "^1.11.0",
+    "window": "^4.2.6",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "nodemon": "node_modules/.bin/nodemon -i API/server",
+    "dashboard": "node_modules/.bin/nodemon -i API/server",
+    "initsql": "mysql -u root -p < API/sql_init.sql"
+  },
+  "author": "UP808096",
+  "license": "ISC"
+}

@@ -1,0 +1,178 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: left; }
+.item3 { grid-area: right; }
+.item4 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    ' left left left right right right'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: red;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 135px 0;
+  font-size: 30p
+}
+img {
+  max-width: 100%;
+}
+.inbox_chat {
+  background: #fff;
+}
+.chat_ib {
+  float: left;
+  padding: 0 0 0 15px;
+  width: 88%;
+}
+.chat_ib h5 {
+  font-size: 15px;
+  color: #464646;
+  margin: 0 0 8px 0;
+}
+.chat_img {
+  float: left;
+  width: 11%;
+}
+.chat_people {
+  overflow: hidden;
+  clear: both;
+  padding-top: 7px;
+}
+.chat_list {
+  margin: 0;
+  padding: 0px 16px 10px;
+}
+.active_chat {
+  background: #d6d1d1;
+}
+.chat_ib h5 span {
+  font-size: 13px;
+  float: right;
+}
+.chat_ib p {
+  font-size: 14px;
+  color: #989898;
+  margin: auto;
+}
+.bxslider {
+  width: 100%;  
+}
+
+.bx-wrapper {
+    height: 400px !important; 
+    margin-bottom: 0px;
+}
+
+img {
+  width: 100%;
+}
+.bx-wrapper img {
+  height: 390px;
+}
+.bx-wrapper .bx-pager {
+  display: none;
+}
+#external-events {
+  padding-top: 0px;
+}
+
+/*--first page--*/
+.wrapper-bg {
+  background: #000;
+}
+.header{
+  height: 50px;
+   background-color: #3a3c3c;
+}
+.h_title {
+  color: #fff; 
+  float: left;
+  padding-top: 14px;
+  padding-left: 20px
+}
+.login-btn {
+  float:right;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+.margin-top-20 {
+  margin-top: 20px;
+}
+.padding-0 {
+  padding:0;
+}
+.anno-bg {
+  height:400px;
+  background: #3a3c3c;
+  padding:0;
+}
+.anno-bk1 {
+  height: 50px;
+  border-bottom: 1px solid #464444;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 2px #2b2828;
+}
+.anno-bk2 {
+  color:#c3b9b9;
+  margin-left:10px; 
+  margin-top:10px;
+}
+.anno-bk1-ti {
+  float: left;
+  color: #fff;
+  font-size: 17px;
+  padding-left: 10px;
+  padding-top: 13px
+}
+.anno-bk1-con {
+  float: right;
+  color: #fff;
+  font-size: 16px;
+  padding-right: 10px;
+  padding-top: 13px;
+}
+.margin-top-15 {
+  margin-top: 15px;
+}
+.margin-bottom-15 {
+  margin-bottom:15px;
+}
+
+/*--Calendar Customize--*/
+
+.fc-center h2{
+  font-size: 30px;
+}
+.fc-widget-content {
+  height: 53px !important;
+}
+.fc-basic-view .fc-body .fc-row {
+  min-height: 0;
+}
+.fc-day-grid-container {
+  height: 318px !important;
+}
+#external-events h5 {
+  font-size: 1.2rem !important;
+}
+.moving-box {
+  background:#fff;
+  border: 2px solid red;
+  width:100%;
+  height:100%;
+}
+.ui-state-active {
+  border:3px dashed rgb(156, 39, 176);
+  opacity: 0.5;
+}
+.ui-state-hover {
+  opacity: 1.0;
+}

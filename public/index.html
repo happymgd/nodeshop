@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+   <!-- calendar Js -->
+   <script src="calendar/js/vendors.min.js" type="text/javascript"></script>
+   <script src="calendar/vendors/fullcalendar/lib/jquery-ui.min.js"></script>
+   <script src="calendar/vendors/fullcalendar/lib/moment.min.js"></script>
+   <script src="calendar/vendors/fullcalendar/js/fullcalendar.min.js"></script>
+   <script src="calendar/js/plugins.js" type="text/javascript"></script>
+   <script src="calendar/js/custom/custom-script.js" type="text/javascript"></script>
+   <script src="calendar/js/scripts/app-calendar.js" type="text/javascript"></script>
+   <!-- bxSlider Js -->
+   <script src="bxslider/js/4.2.15/jquery.bxslider.min.js"></script>
+   <!-- weather Js -->
+   <script src="weather/js/skycons.js"></script>
+   
+  
+  <!-- bxslider CSS -->
+  <link href="bxslider/css/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+  <!-- font-awesome CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- bootstrap CSS-->
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+  <!-- weather CSS-->
+  <link rel="stylesheet" type="text/css" href="weather/css/weather.css">
+  <!-- calendar CSS-->
+  <link rel="stylesheet" type="text/css" href="calendar/vendors/vendors.min.css">
+  <link rel="stylesheet" type="text/css" href="calendar/vendors/flag-icon/css/flag-icon.min.css">
+  <link rel="stylesheet" type="text/css" href="calendar/vendors/fullcalendar/css/fullcalendar.min.css">
+  <link rel="stylesheet" type="text/css" href="calendar/css/themes/horizontal-menu-template/materialize.css">
+  <link rel="stylesheet" type="text/css" href="calendar/css/themes/horizontal-menu-template/style.css">
+  <link rel="stylesheet" type="text/css" href="calendar/css/layouts/style-horizontal.css">
+  <link rel="stylesheet" type="text/css" href="calendar/css/pages/app-calendar.css">
+  <link rel="stylesheet" type="text/css" href="calendar/css/custom/custom.css">
+  <!-- custom CSS-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+  <div class="container-fluid wrapper-bg">
+    <!-- header-->
+    <div class="row">
+      <div class="header">
+          <div class="h_title">DashBoard</div>
+          <div class="btn btn-info login-btn">LogIn</div>
+      </div>
+    </div> 
+    <!-- Slider, News, Announcements -->
+    <div class="row margin-top-20">
+      <div class="wrap-box col-md-6 col-xs-6 padding-0" id="pos-1">
+        <div class="box" id="slider">
+          <ul class="bxslider">
+            <li><img src="image/img1.jpg" /></li>
+            <li><img src="image/img2.jpg" /></li>
+            <li><img src="image/img3.jpg" /></li>
+          </ul>
+        </div>
+      </div> 
+      <div class="wrap-box col-md-3 col-xs-3" id="pos-2">
+        <div class="box" id="news">
+          <div class="inbox_people">
+              <div class="inbox_chat">
+                <div class="chat_list">
+                  <div class="chat_people">
+                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                    <div class="chat_ib">
+                      <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+                      <p>Test, which is a new approach to have all solutions...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat_list">
+                    <div class="chat_people">
+                      <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                      <div class="chat_ib">
+                        <h5>Leano R.<span class="chat_date">Dec 25</span></h5>
+                        <p>AIF file Converted to mp3</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="chat_list active_chat">
+                      <div class="chat_people">
+                        <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                        <div class="chat_ib">
+                          <h5>Julia D <span class="chat_date">Dec 26</span></h5>
+                          <p>HTML integreation project for 50 HTML pages
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="chat_list">
+                        <div class="chat_people">
+                          <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                          <div class="chat_ib">
+                            <h5>Ryan P.<span class="chat_date">Dec 29</span></h5>
+                            <p>setup Mysql admin panel</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="chat_list">
+                          <div class="chat_people">
+                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                            <div class="chat_ib">
+                              <h5>Arpita S.<span class="chat_date">Dec 30</span></h5>
+                              <p>Need PHP Settings using php.ini</p>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="chat_list">
+                          <div class="chat_people">
+                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                            <div class="chat_ib">
+                              <h5>Yong F.<span class="chat_date">Dec 30</span></h5>
+                              <p>Laravel project using RESTFul API</p>
+                            </div>
+                          </div>
+                      </div>
+              </div>
+          </div>
+        </div>
+      </div>   
+      <div class="wrap-box col-md-3 col-xs-3 anno-bg" id="pos-3">
+        <div class="box" id="note">
+          <div class="anno-bk1">
+            <div class="anno-bk1-ti">Announcements</div> 
+            <div class="anno-bk1-con"><i class="fa fa-pencil"></i></div> 
+          </div>
+          <div class="anno-bk2">
+            Hello!
+          </div>
+        </div>
+      </div>
+    </div>   
+    <!-- Weather, Calendar -->
+    <div class="row">
+        <div class="wrap-box col-md-6 col-xs-6 margin-top-15 margin-bottom-15" id="pos-4">
+          <div class="box" id="weather">
+            <div class="w3ls-weather-agileinfo"> 
+                <div class="weather-left">
+                    <div class="weather-left-text">
+                      <h4>London, UK</h4>
+                      <h5>Monday, 7th May </h5>
+                    </div>
+                    <ul class="report">
+                      <li><a href="#">25 °C</a></li>
+                      <li><a href="#"><span>79</span> °F</a></li>
+                    </ul>
+                  </div>
+                  <div class="weather-right">
+                    <ul>
+                      <li>
+                        <figure class="icons">
+                          <canvas id="partly-cloudy-day" width="40" height="40"></canvas>
+                        </figure>
+                        <div class="weather-text"><h4>25 °C</h4></div>
+                        <div class="clear"></div>
+                      </li>
+                      <li>
+                        <figure class="icons">
+                          <canvas id="clear-day" width="40" height="40"></canvas>
+                        </figure>
+                        <div class="weather-text">
+                          <h4>WED</h4>
+                          <h5>27 °C</h5>
+                        </div>
+                        <div class="clear"></div>
+                      </li>
+                      <li>
+                        <figure class="icons">
+                          <canvas id="snow" width="40" height="40"></canvas>
+                        </figure>
+                        <div class="weather-text">
+                          <h4>THR</h4>
+                          <h5>13 °C</h5>
+                        </div>
+                        <div class="clear"></div>
+                      </li>
+                      <li>
+                        <figure class="icons">
+                          <canvas id="partly-cloudy-night" width="40" height="40"></canvas>
+                        </figure>
+                        <div class="weather-text">
+                          <h4>FRI</h4>
+                          <h5>18 °C</h5>
+                        </div>
+                        <div class="clear"></div>
+                      </li>
+                    </ul>
+                    <script>
+                       var icons = new Skycons({"color": "#fff"}),
+                          list  = [
+                          "partly-cloudy-day"
+                          ],
+                          i;
+            
+                        for(i = list.length; i--; )
+                        icons.set(list[i], list[i]);
+                        icons.play();
+                    </script>
+                    <script>
+                       var icons = new Skycons({"color": "#fff"}),
+                          list  = [
+                          "clear-night","partly-cloudy-night", "cloudy", "clear-day", "sleet", "snow", "wind","fog"
+                          ],
+                          i;
+            
+                        for(i = list.length; i--; )
+                        icons.set(list[i], list[i]);
+                        icons.play();
+                    </script>
+                  </div>
+                  <div class="clear"></div>
+            </div>
+          </div>
+        </div>  
+        <div class="wrap-box col-md-6 col-xs-6" style="padding:0" id="pos-5">
+          <div class="box" id="calendar">
+            <div id="app-calendar">
+               <div class="row">
+                    <div class="col s12">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="row">
+                                    <div class="col m3">
+                                        <div id='external-events'>
+                                            <h5>Draggable Events</h5>
+                                            <div class="fc-events-container">
+                                                <div class='fc-event' data-color='#009688'>All Day Event</div>
+                                                <div class='fc-event' data-color='#4CAF50'>Long Event</div>
+                                                <div class='fc-event' data-color='#00bcd4'>Meeting</div>
+                                                <div class='fc-event' data-color='#ff5722'>Birthday party</div>
+                                                <div class='fc-event' data-color='#9c27b0'>Lunch</div>
+                                                <div class='fc-event' data-color='#e51c23'>Conference Meeting</div>
+                                                <div class='fc-event' data-color='#e91e63'>Party</div>
+                                                <div class='fc-event' data-color='#3f51b5'>Happy Hour</div>
+                                                <div class='fc-event' data-color='#ffc107'>Dance party</div>
+                                                <div class='fc-event' data-color='#4a148c'>Dinner</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col m9">
+                                        <div id='fc-external-drag'></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            </div><!-- START RIGHT SIDEBAR NAV -->
+          </div>
+        </div>
+     </div>  
+    </div>
+</body>
+<script>
+  var target_wrapper;
+  $(document).ready(function(){
+    $('.bxslider').bxSlider();
+  //   $wrapper = $('.wrap-box');
+  //   $box = $('.box');
+
+  //   $wrapper.mousedown(function(e){
+  //     target_wrapper = $(this);
+  //   });
+
+  //   $box.draggable({
+  //     cancel: "a.ui-icon", // clicking an icon won't initiate dragging
+  //     revert: "invalid", // when not dropped, the item will revert back to its initial position
+  //     containment: "document",
+  //     helper: "clone",
+  //     cursor: "move"
+  //   });
+
+  //   $wrapper.droppable({
+  //     classes: {
+  //       "ui-droppable-active": "ui-state-active",
+  //       "ui-droppable-hover": "ui-state-hover"
+  //     },
+  //     drop: function( event, ui ) {
+  //       replace_box( ui.draggable, $(this) );
+  //     }
+  //   });
+ 
+  // });
+  // function replace_box($item, $wrapper) {
+  //   target_wrapper.html($wrapper.html());
+    //$item.fadeOut(function() {
+      // $wrapper.html('');
+      // $item.fadeIn(300).appendTo($wrapper);
+      // $.ajax {
+
+      // }
+      //location.reload();
+    //});
+  //}
+  // $(document).mousemove(function(e){
+  //   if(clicking == false) return;
+  // })
+  // $(document).mouseup(function(e){
+  //     clicking = false;
+  //     target_wrapper = null;
+   });
+
+</script>
+</html>
